@@ -15,7 +15,7 @@ This engine utilizes a custom Reciprocal Rank Fusion (RRF) hybrid retriever (BM2
 
 1. **Clone the repository:**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/Aniket-tomar/UniGuide.git
    cd uniguide
    ```
 
@@ -34,7 +34,7 @@ This engine utilizes a custom Reciprocal Rank Fusion (RRF) hybrid retriever (BM2
    ```bash
    uvicorn main:app --reload
    ```
-   Navigate to `http://localhost:8000` to interact with the UI.
+   Navigate to `http://localhost:` to interact with the UI.
 
 ## 🧪 Evaluation
 Run the automated test suite to verify the engine's accuracy across all three states (Resolved, Contradicted, Unaddressed):
